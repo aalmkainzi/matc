@@ -15,10 +15,10 @@ match(x,
 ```C
 int y =
 match_exp(x,
-      (in_range(5,10), 7),
-      (gt(5),          5),
-      (PAT < 20,       4),
-      (true,           1),
+    (in_range(5,10), 7),
+    (gt(5),          5),
+    (PAT < 20,       4),
+    (true,           1),
 );
 ```
 By default offers the following pattern macros:
