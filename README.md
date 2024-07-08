@@ -1,6 +1,6 @@
 # matc
 
-Basic pattern matching in C
+Super basic pattern matching in C
 
 ```C
 int x = 3;
